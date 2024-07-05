@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ManifaPro2_2.224-Bold';
+    src: local('ManifaPro2_2.224-Bold'), url('./../public/fonts/ManifaPro2_2.224-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Optionally, define other styles using your custom font */
+  body {
+    font-family: 'ManifaPro2_2.224-Bold', sans-serif;
+  }
+  

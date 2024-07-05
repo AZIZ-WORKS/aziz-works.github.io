@@ -1,0 +1,76 @@
+.registration-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.registration-form {
+  width: 100%;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="number"],
+.registration-form input[type="email"],
+.registration-form input[type="tel"],
+.registration-form input[type="file"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #00843D;
+  font-size: 1rem;
+  color: Grey;
+  margin: 0.2rem;
+}
+
+.registration-form select  {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #00843D;
+  font-size: 1rem;
+  color: grey;
+  margin: 0.2rem;
+}
+.registration-form select option :hover {
+  background-color: #00843D;
+  color: #fff;
+}
+.registration-form button[type="submit"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+color: #fff ;
+  background-color: #00843D;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 2px solid #00843D;
+  margin: 0.2rem;
+}
+
+.registration-form button[type="submit"]:hover {
+  background-color: white;
+  color: #00843D;
+}
+
+@media (max-width: 767px) {
+  .registration-form-container {
+    padding: 1rem;
+  }
+
+  .registration-form {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .registration-form {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .registration-form {
+    max-width: 100%;
+  }
+} 

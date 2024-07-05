@@ -1,0 +1,113 @@
+body {
+  font-family: 'ManifaPro2_2.224-Bold', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Example of applying the font to specific elements */
+h1, h2, h3 {
+  font-family: 'ManifaPro2_2.224-Bold', sans-serif;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100%;
+  padding: 5px;
+}
+.Aramco-logo{
+  margin: 1rem;
+  width: 200px;
+  height: auto;
+}
+.Aramco-logo img{
+  width: 100%;
+  height: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Background color of the page */
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.center-flex {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: fit-content;
+    max-width: 1200px; /* Adjust this value based on your preference */
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .center-flex {
+    width: 95%;
+    padding: 20px;
+  }
+}
+
+/* App.css */
+.homepage-background {
+  background-image: url('./pics/bg1.png');
+  background-size:100%; /* Adjust this as needed */
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.formpage-background {
+  background-image: url('./pics/bg2.png');
+
+  background-size: cover;
+  background-position: center;
+}
+
+.thankyoupage-background {
+  background-image: url('./pics/bg3.png');
+
+  background-size: cover;
+  background-position: center;
+}

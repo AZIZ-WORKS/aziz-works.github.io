@@ -1,0 +1,66 @@
+
+
+.custom-input {
+  border-radius: 0;
+  background-color: #5F6369;
+  color: #FFFFFF;
+}
+
+.custom-label {
+  color: #FFFFFF;
+}
+
+.custom-menu-paper {
+  background-color: #5F6369;
+}
+
+.custom-menu-item {
+  color: #FFFFFF;
+}
+
+.custom-select {
+  border-radius: 0;
+  background-color: #5F6369;
+  color: #FFFFFF;
+}
+
+.custom-typography {
+  text-align: center;
+}
+
+.webcam-container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px;
+}
+
+.webcam {
+  width: 100%;
+  height: 100%;
+}
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.camera-button {
+  color: #84BD00;
+}
+
+.camera-icon {
+  font-size: 50px;
+}
+
+.submit-button {
+  background-color: #84BD00;
+  border-radius: 0;
+}
+
+.custom-checkbox {
+  color: #FFFFFF;
+}
